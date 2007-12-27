@@ -7,7 +7,7 @@ Summary:	%{_pearname} - A full featured command line options and arguments parse
 Summary(pl.UTF-8):	%{_pearname} - Bogaty w funkcjonalność parser parametrów linii poleceń
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	1
+Release:	2
 License:	MIT License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -82,7 +82,7 @@ rm -rf $RPM_BUILD_ROOT
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Console/CommandLine
 %{php_pear_dir}/Console/CommandLine.php
-%{php_pear_dir}/data/Console_CommandLine/data/xmlschema.rng
+%{php_pear_dir}/data/%{_pearname}
 
 %files tests
 %defattr(644,root,root,755)
