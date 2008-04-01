@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	Console_CommandLine
 Summary:	%{_pearname} - A full featured command line options and arguments parser
-Summary(pl.UTF-8):	%{_pearname} - Bogaty w funkcjonalność parser parametrów linii poleceń
+Summary(pl.UTF-8):	%{_pearname} - Bogaty w funkcjonalność analizator parametrów linii poleceń
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	4
@@ -45,7 +45,7 @@ Podstawowe cechy:
  - obsługa podpoleceń (np. $ myscript.php -q polecenie -f plik),
  - możliwość generowania z pliku XML,
  - automatyczne generowanie opcji --help oraz --version,
- - możliwość dostoswania do własnych potrzeb,
+ - możliwość dostosowania do własnych potrzeb,
  - wbudowane wsparcie dla i18n,
  - i wiele innych...
 
