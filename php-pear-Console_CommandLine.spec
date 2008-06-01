@@ -1,17 +1,17 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Console
 %define		_subclass	CommandLine
-%define		_status		alpha
+%define		_status		stable
 %define		_pearname	Console_CommandLine
 Summary:	%{_pearname} - A full featured command line options and arguments parser
 Summary(pl.UTF-8):	%{_pearname} - Bogaty w funkcjonalność analizator parametrów linii poleceń
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
-Release:	4
+Version:	1.0.0
+Release:	1
 License:	MIT License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	09a7a98b84a197382d8485dc6282e863
+# Source0-md5:	ff94f26ec825de70bf1f18cee0309080
 URL:		http://pear.php.net/package/Console_CommandLine/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
