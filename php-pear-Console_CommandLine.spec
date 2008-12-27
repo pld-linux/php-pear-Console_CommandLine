@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - A full featured command line options and arguments parser
 Summary(pl.UTF-8):	%{_pearname} - Bogaty w funkcjonalność analizator parametrów linii poleceń
 Name:		php-pear-%{_pearname}
-Version:	1.0.5
+Version:	1.0.6
 Release:	1
 License:	MIT License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9b5f0af3e3102592b6e8aed06b93079d
+# Source0-md5:	4997dae2ba5851813960a70e332b06ba
 URL:		http://pear.php.net/package/Console_CommandLine/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
