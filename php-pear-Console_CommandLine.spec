@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Console
 %define		_subclass	CommandLine
 %define		_status		stable
